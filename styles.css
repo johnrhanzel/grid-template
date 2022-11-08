@@ -1,0 +1,24 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* declaring display set to grid */
+  .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1em;
+  }
+  
+  /* adding border to each divs */
+  .item{
+    border: 2px solid black;
+    padding: .5em;
+  }
+  
+  /* positioning items in a grid */
+  .grid1{
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
